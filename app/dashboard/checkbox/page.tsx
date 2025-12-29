@@ -6,8 +6,8 @@ import { useState } from 'react'
 const Page = () => {
   const [check, setCheck] = useState<boolean>(false);
   return (
-    <div className='w-full p-2'>
-      <div className={`flex gap-3 p-4 w-fit ${check ? 'bg-blue-600 rounded-lg text-white' : ''} transition-all`}>
+    <div className='w-full p-2 flex gap-4'>
+
         <Checkbox 
           id='terms'
           checked={check}
@@ -20,8 +20,6 @@ const Page = () => {
         />
 
         <Label htmlFor='terms' className='cursor-pointer'>Accept the app&apos;s terms and conditions</Label>
-
-      </div>
       
     </div>
   )

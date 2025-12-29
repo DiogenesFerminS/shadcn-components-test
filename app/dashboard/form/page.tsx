@@ -1,7 +1,9 @@
+import { Form } from "@/components/form/form";
+
 const Page = () => {
   return (
-    <div>
-        <h1 className="text-black">Form Page</h1>
+    <div className="flex justify-center items-center">
+        <Form/>
     </div>
   )
 }

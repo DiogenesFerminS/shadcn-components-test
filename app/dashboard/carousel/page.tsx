@@ -10,7 +10,7 @@ import {
 
 const Page = () => {
   return (
-    <div className="w-full flex-col bg-gray-100">
+    <div className="w-full flex-col bg-gray-100 dark:bg-stone-950">
       <Carousel
         className="w-full max-w-xs mx-auto mb-5"
         opts={{
